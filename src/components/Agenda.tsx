@@ -6,61 +6,75 @@ const Agenda = () => {
       time: '08:00 - 08:30',
       title: 'Acreditación y Bienvenida',
       speaker: '',
-      location: 'Salón Belgrano',
+      company: '',
+      location: 'Salón Belgrano - EMGE',
     },
     {
       time: '08:30 - 09:00',
       title: 'Apertura Institucional',
       speaker: 'Autoridades del Ejército Argentino',
-      location: ' Salón Belgrano',
+      company: '',
+      location: ' Salón Belgrano - EMGE',
     },
     {
-      time: '09:00 - 10:00',
-      title: 'IA en la Transformación Digital del Sector Defensa',
+      time: '09:00 - 09:30',
+      title: 'La evolución de la IA: ¿Cómo está transformando a las organizaciones?',
+      speaker: 'María Isabel Villegas',
+      company: 'IBM',
+      location: 'Salón Belgrano - EMGE',
+    },
+    {
+      time: '09:30 - 10:00',
+      title: 'Esperar tema',
       speaker: 'Dr. Juan Carlos Rodríguez',
-      location: 'Salón Belgrano',
+      company: 'LENOVO',
+      location: 'Salón Belgrano - EMGE',
     },
     {
       time: '10:00 - 10:30',
-      title: 'Coffee Break',
-      speaker: '',
-      location: 'Salón Belgrano',
-    },
-    {
-      time: '10:30 - 11:30',
-      title: 'Machine Learning Aplicado: Casos de Éxito',
+      title: 'Esperar tema',
       speaker: 'Ing. María Fernández',
-      location: 'Salón Belgrano',
+      company: 'MICROSOFT',
+      location: 'Salón Belgrano - EMGE',
     },
     {
-      time: '11:30 - 12:30',
-      title: 'IA y Ciberseguridad: Desafíos y Oportunidades',
-      speaker: 'Dra. Ana Martínez',
-      location: 'Salón Belgrano',
-    },
-    {
-      time: '12:30 - 14:00',
-      title: 'Almuerzo',
+      time: '10:30 - 10:40',
+      title: 'Coffe break',
       speaker: '',
-      location: 'Comedor',
+      location: 'Salón Belgrano - EMGE',
     },
     {
-      time: '14:00 - 15:00',
-      title: 'Implementación de IA en Organizaciones',
+      time: '10:40 - 11:10',
+      title: 'Esperar tema',
+      speaker: 'Martin Bonaventura',
+      company: 'DELL',
+      location: 'Salón Belgrano - EMGE',
+    },
+    {
+      time: '11:10 - 11:40',
+      title: 'Esperar tema',
       speaker: 'Lic. Roberto Gómez',
-      location: 'Salón Belgrano',
+      company: 'TESLA',
+      location: 'Salón Belgrano - EMGE',
     },
     {
-      time: '15:00 - 16:00',
-      title: 'Panel de Debate: El Futuro de la IA',
-      speaker: 'Todos los Speakers',
-      location: 'Salón Belgrano',
+      time: '11:40 - 12:40',
+      title: 'Expositores del Ejército Argentino',
+      speaker: '',
+      company: '',
+      location: 'Salón Belgrano - EMGE',
     },
     {
-      time: '16:00 - 16:30',
+      time: '12:40 - 12:50',
+      title: 'Coffe break',
+      speaker: '',
+      location: 'Salón Belgrano - EMGE',
+    },
+    {
+      time: '13:00 - 13:30',
       title: 'Cierre y Conclusiones',
-      speaker: 'Autoridades del Ejército Argentino',
-      location: 'Salón Belgrano',
+      speaker: '',
+      location: 'Salón Belgrano - EMGE',
     },
   ];
 
@@ -98,6 +112,11 @@ const Agenda = () => {
                   {item.speaker && (
                     <p className="text-sm sm:text-base text-slate-700 mb-1">
                       {item.speaker}
+                    </p>
+                  )}
+                  {item.company && (
+                    <p className="text-sm sm:text-base text-slate-700 mb-1">
+                      {item.company}
                     </p>
                   )}
                   <div className="flex items-center gap-2 text-sm text-slate-600 mt-2">

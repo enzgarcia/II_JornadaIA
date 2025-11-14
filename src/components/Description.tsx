@@ -30,11 +30,8 @@ const Description = () => {
         <div className="mt-12 lg:mt-16 p-6 lg:p-8 bg-gradient-to-r from-blue-900 to-slate-800 rounded-lg text-white">
           <div className="text-center space-y-4">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">
-              Un encuentro para transformar el futuro
+              Un encuentro para impulsar el futuro de la Defensa con tecnología de vanguardia
             </h3>
-            <p className="text-base sm:text-lg text-blue-100">
-             Impulsando el futuro de la Defensa con tecnología de vanguardia
-            </p>
           </div>
         </div>
       </div>

@@ -2,11 +2,11 @@ const Sponsors = () => {
   const sponsors = [
     { name: 'Emixer', logo: '/Emixer.png' },
     { name: 'Tesla', logo: '/Tesla.jfif' },
-    { name: 'IBM', logo: '/IBM.png' },
+    { name: 'IBM', logo: '/IBM1.png' },
     { name: 'Lenovo', logo: '/Lenovo.png' },
     { name: 'Microsoft', logo: '/Microsoft.png' },
+    { name: 'Telecentro', logo: '/Telecentro1.png' },
     { name: 'Dell', logo: '/Dell.png' },
-    { name: 'Telecentro', logo: '/Telecentro.png' },
     //{ name: 'Cirion Technologies', logo: 'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=200' },
     //{ name: 'Telecentro', logo: 'https://images.pexels.com/photos/5835359/pexels-photo-5835359.jpeg?auto=compress&cs=tinysrgb&w=200' }
   ];
@@ -16,7 +16,7 @@ const Sponsors = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 lg:mb-8">
-            Patrocinadores
+            Colaboradores
           </h2>
           <div className="w-20 lg:w-24 h-1 bg-blue-600 mx-auto"></div>
           <p className="mt-6 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">

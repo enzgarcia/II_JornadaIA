@@ -1,22 +1,20 @@
-import { Linkedin, Twitter } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 
 const Speakers = () => {
   const speakers = [
     {
-      name: 'Dr. Juan Carlos Rodríguez',
-      role: 'Director de Innovación Tecnológica',
-      organization: 'Ejército Argentino',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
-      linkedin: '#',
-      twitter: '#',
+      name: 'María Isabel Villegas',
+      role: 'Data & AI Digital Sales Specialist',
+      organization: 'IBM',
+      image: '/VillegasIBM.png',
+      linkedin: 'https://www.linkedin.com/in/mar%C3%ADa-isabel-villegas-22884551/',
     },
     {
-      name: 'Ing. María Fernández',
-      role: 'Especialista en Machine Learning',
-      organization: 'Ministerio de Defensa',
-      image: 'https://images.pexels.com/photos/3765035/pexels-photo-3765035.jpeg?auto=compress&cs=tinysrgb&w=400',
-      linkedin: '#',
-      twitter: '#',
+      name: 'Martin Bonaventura',
+      role: 'Advisory Channels Data Center Specialist',
+      organization: 'Dell Technologies',
+      image: '/MartinDELL.png',
+      linkedin: 'https://www.linkedin.com/in/martin-bonaventura-89a569a/',
     },
     {
       name: 'Lic. Roberto Gómez',
@@ -24,7 +22,6 @@ const Speakers = () => {
       organization: 'IBM Argentina',
       image: 'https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=400',
       linkedin: '#',
-      twitter: '#',
     },
     {
       name: 'Dra. Ana Martínez',
@@ -32,7 +29,6 @@ const Speakers = () => {
       organization: 'Universidad Nacional',
       image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
       linkedin: '#',
-      twitter: '#',
     },
   ];
 
@@ -81,7 +77,6 @@ const Speakers = () => {
                     href={speaker.twitter}
                     className="text-slate-600 hover:text-blue-700 transition-colors"
                   >
-                    <Twitter size={20} />
                   </a>
                 </div>
               </div>

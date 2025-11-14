@@ -24,13 +24,14 @@ const Stats = () => {
   const stats = [
     { value: '+100', label: 'PARTICIPANTES' },
     { value: '+10', label: 'SPEAKERS' },
-    { value: '+10', label: 'CHARLAS' },
+   // { value: '+10', label: 'CHARLAS' },
   ];
 
   return (
     <section ref={sectionRef} className="py-16 lg:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+        {/*<div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">*/}
+        <div className="flex justify-center flex-wrap gap-16 md:gap-24">
           {stats.map((stat, index) => (
             <div
               key={index}
