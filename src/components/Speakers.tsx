@@ -26,7 +26,7 @@ const Speakers = () => {
     ,
     {
       name: 'Ing. Francisco Hernández Semblanza',
-      role: 'Falta rol',
+      role: 'Especialista en soluciones Microsoft',
       organization: 'Microsoft',
       image: '/FernandezMicrosoft.png',
       linkedin: '#',
