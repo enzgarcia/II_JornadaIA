@@ -65,12 +65,12 @@ const Footer = () => {
             <div className="flex items-center gap-3 text-sm sm:text-base">
               <Globe size={20} className="flex-shrink-0 text-blue-400" />
               <a
-                href="http://www.portal.ejercito.mil.ar"
+                href="https://portal.ejercito.mil.ar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors"
               >
-                portal.ejercito.mil.ar
+                Portal Ejército
               </a>
             </div>
           </div>
