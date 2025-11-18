@@ -25,10 +25,10 @@ const Speakers = () => {
     },
     ,
     {
-      name: 'Ing. Francisco Hernández Semblanza',
+      name: 'Ing. Guillermo Márquez',
       role: 'Especialista en soluciones Microsoft',
       organization: 'Microsoft',
-      image: '/FernandezMicrosoft.png',
+      image: '/RepMicrosoft1.png',
       linkedin: '#',
     },
         ,

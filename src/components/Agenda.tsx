@@ -26,7 +26,7 @@ const Agenda = () => {
     {
       time: '09:40 - 10:10',
       title: 'La IA en Microsoft',
-      speaker: 'Ing. Francisco Hernández Semblanza',
+      speaker: 'Ing. Guillermo Márquez',
       company: 'MICROSOFT',
       location: 'Salón Belgrano - EMGE',
     },
